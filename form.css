@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+fieldset{
+    background-color: rgb(24, 210, 231);
+    border: 1px solid black;
+    border-radius: 5px;
+ 
+}
+.form-head{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: rgb(24, 210, 231);
+    border-radius: 10px;
+}
+.form-type{
+    width: 600px;
+    margin-left: 100px;
+    margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+/* main {
+  margin: 20px;
+  background-color: rgb(41, 135, 243);
+  border: 1px white solid;
+  border-radius: 10px;
+ 
+} */
+.subheading {
+  margin: 5px;
+  padding: 20px;
+}
+.product-box{
+    margin: 5px;
+}
+.step0,
+.step1,
+.step2,
+.step3 {
+  margin: 5px 20px;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.step0Box,
+.step1Box,
+.step2Box,
+.step3Box {
+  display: inline-block;
+  width: 150px;
+}
+.step1Input,
+.step2Input,
+.step3Input {
+  display: inline-block;
+  width: 250px;
+  height: 30px;
+  border: 2px solid gray;
+  border-radius: 5px;
+ 
+
+}
+.step1Input,
+::placeholder {
+  font-style: italic;
+
+}
+/* Subheading-2 Stylist Part2------------------ */
+.tArea{
+    display: inline-block;
+    text-align: left;
+    
+}
+/* .step2Box, 
+.tArea{
+
+  text-combine-upright: top;
+} */
+.TextArea{
+    height: 90px;
+    text-align: justify;
+    display: inline-block;
+  width: 250px;
+  height: 90px;
+  border-radius: 5px;
+  border: 2px solid gray;
+  
+}
+.selectionBox{
+    display: inline-block;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+/* Subheading-3 Stylist Part3------------------ */
+.card-box,
+.product-box{
+    display: inline-block;
+    width: 150px;
+}
+.card-type:checked{
+accent-color: red;
+}
+.submitbtn{
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  border: 2px solid gray;
+  
+}
